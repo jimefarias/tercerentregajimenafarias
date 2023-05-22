@@ -35,16 +35,23 @@
 
 .separacion {
     margin: 30px;
+
 }
 
-.cajita {
-    transform: scale(1.5);
-}
-
+.cajita{
+    transition:2s;
+    &:hover {
+      transform:scale(1,1);
+    }
+  }  
+  
 .titulo {
     color: $colorprincipal;
     background-color: rgb(216, 170, 228);
-    transform: rotate(360deg);
+   transition: 4s;
+   &:hover{
+    transform:rotate(360deg)
+   }
 
     font: {
         size: 38px;
