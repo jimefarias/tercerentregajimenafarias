@@ -1,0 +1,21 @@
+/* pie de pagina */
+.espacios {
+    margin-top: 500px;
+}
+
+.piedepagina {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.tamañologo {
+    width: 75px;
+    height: 75px;
+}
+
+.centrarimagenes {
+    display: block;
+    margin: auto;
+}
