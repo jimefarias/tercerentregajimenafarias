@@ -162,10 +162,19 @@
  @media (max-width: 767px) {
    .videoscompletos {
      flex-direction: column;
+   
+   
   
 
    }
  }
+
+ @media (max-width: 767px) {
+  .container-titulo {
+    flex-direction: column;
+    width: 100%;
+
+  }}
 
  @media screen and (max-width: 767px) {
  
@@ -173,6 +182,7 @@
     position: relative;
     padding-bottom: 56.25%; 
     height: 0;
+    margin-bottom: 30px;
   }
   
   .container-video iframe,
@@ -182,6 +192,7 @@
     left: 0;
     width: 100%;
     height: 100%;
+    overflow: hidden;
   }
 }
 
