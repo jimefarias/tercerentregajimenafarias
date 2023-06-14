@@ -355,24 +355,44 @@
    height: 500px;
    margin-top: 100px;
    margin-left: 100px;
+   max-width: 100%;
+   margin-right: 40px;
  }
 
- @media (max-width: 720px) {
+ @media (max-width: 480px) {
    .menu2 {
      display: flex;
      flex-direction: column;
-     justify-content: right;
+     max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
    }
+  }
 
    .formulario_lista {
-     display: flex;
-     flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
    }
 
    .formulario_tienda {
-     display: flex;
-     flex-direction: column;
-   }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
  }
 
  /* pie de pagina */
