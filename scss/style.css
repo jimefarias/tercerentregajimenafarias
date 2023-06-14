@@ -169,10 +169,11 @@
    }
  }
 
- @media (max-width: 767px) {
+ @media (max-width: 480px) {
   .container-titulo {
-    flex-direction: column;
+  
     width: 100%;
+    font-size: 20px;
 
   }}
 
