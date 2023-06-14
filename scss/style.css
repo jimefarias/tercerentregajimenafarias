@@ -35,6 +35,8 @@
    margin-left: 20px;
    margin-top: 60px;
    margin-bottom: 60px;
+   
+
  }
 
  /*carrusel*/
@@ -57,8 +59,9 @@
    }
 
    .gif_inicio {
-     width: 100%;
+    
      height: auto;
+     margin-left: 80px;
    }
 
    .tamañocarrusel {
@@ -152,7 +155,7 @@
    height: 100px;
  }
 
- @media (max-width:900px) {
+ @media (max-width:480px) {
    .tablaconcierto {
      grid-template-columns: 1fr;
      grid-template-rows: 1fr 1fr 1fr;
@@ -257,7 +260,8 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   font-size: 100px;
+   font-size: 70px;
+   
  }
 
  .BLACKPINK,
@@ -310,6 +314,25 @@
    }
  }
 
+ @media only screen and (max-width: 480px) {
+  .cuadroconcierto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 70px;
+    width: 100%;
+  }
+
+  .contenedor-cajita {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    max-width: 100%;
+    height: 70px;
+  }
+}
+
  /*tienda */
  .menu2 {
    list-style-type: none;
@@ -350,15 +373,15 @@
    margin-top: 1px;
  }
 
- .gif_tienda {
-   width: 500px;
-   height: 500px;
-   margin-top: 100px;
-   margin-left: 100px;
-   max-width: 100%;
-   margin-right: 40px;
- }
+ 
 
+
+
+.contenedor-tienda {
+  width: 100%;
+  margin-left: 00px;
+  margin-right:600px;
+}
  @media (max-width: 480px) {
    .menu2 {
      display: flex;
@@ -395,6 +418,12 @@
   margin-right: auto;
  }
 
+
+.contenedor-tienda {
+  width: 100%;
+  margin-left: auto;
+  margin-right:auto;
+}
  /* pie de pagina */
  .espacios {
    margin-top: 500px;
