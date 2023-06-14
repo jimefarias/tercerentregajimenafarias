@@ -26,15 +26,15 @@
    flex-wrap: nowrap;
    justify-content: space-around;
    background-color: black;
-   
+
  }
 
- .gif_inicio{
-  width: 300px;
-  height: 200px;
-  margin-left: 20px;
-  margin-top: 60px;
-  margin-bottom: 60px;
+ .gif_inicio {
+   width: 300px;
+   height: 200px;
+   margin-left: 20px;
+   margin-top: 60px;
+   margin-bottom: 60px;
  }
 
  /*carrusel*/
@@ -43,30 +43,31 @@
    height: 1000px;
    margin-left: 200px;
    margin-right: 100px;
-   
+
  }
 
  @media (max-width: 720px) {
-  
-  .titulo {
-    font-size: 24px;
-  }
-  
-  .alineartexto {
-    text-align: center;
-  }
-  
-  .gif_inicio {
-    width: 100%;
-    height: auto;
-  }
-  
-  .tamañocarrusel {
-    max-width: 400px;
-    margin: 0 auto;
- 
-  }
-}
+
+   .titulo {
+     font-size: 24px;
+   }
+
+   .alineartexto {
+     text-align: center;
+   }
+
+   .gif_inicio {
+     width: 100%;
+     height: auto;
+   }
+
+   .tamañocarrusel {
+     max-width: 400px;
+     margin: 0 auto;
+
+   }
+ }
+
  /*titulo principal index */
  .separacion {
    margin: 30px;
@@ -120,23 +121,24 @@
  }
 
  @media (max-width: 720px) {
-  .titulo {
-    font-size: 24px;
-  }
-  
-  .imagen_estreno {
-    flex-direction: column;
-  }
-  
-  .imagen_estreno img {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  
-  .info {
-    font-size: 14px;
-  }
-}
+   .titulo {
+     font-size: 24px;
+   }
+
+   .imagen_estreno {
+     flex-direction: column;
+   }
+
+   .imagen_estreno img {
+     width: 100%;
+     margin-bottom: 10px;
+   }
+
+   .info {
+     font-size: 14px;
+   }
+ }
+
  /*tarjetas */
  .tarjetita {
    display: flex;
@@ -308,22 +310,22 @@
  }
 
  @media (max-width: 720px) {
-  .menu2 {
-    display: flex;
-    flex-direction: column;
-    justify-content:right;
-  }
+   .menu2 {
+     display: flex;
+     flex-direction: column;
+     justify-content: right;
+   }
 
-  .formulario_lista {
-    display: flex;
-    flex-direction: column;
-  }
+   .formulario_lista {
+     display: flex;
+     flex-direction: column;
+   }
 
-  .formulario_tienda {
-    display: flex;
-    flex-direction: column;
-  }
-}
+   .formulario_tienda {
+     display: flex;
+     flex-direction: column;
+   }
+ }
 
  /* pie de pagina */
  .espacios {
