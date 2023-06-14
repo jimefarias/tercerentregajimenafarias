@@ -163,18 +163,14 @@
    .videoscompletos {
      flex-direction: column;
    
-   
-  
-
    }
  }
 
  @media (max-width: 480px) {
-  .container-titulo {
-  
-    width: 100%;
+  .container-nombre {
     font-size: 20px;
-
+    background-color:transparent;
+    max-width: 100%;
   }}
 
  @media screen and (max-width: 767px) {
