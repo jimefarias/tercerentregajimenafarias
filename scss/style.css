@@ -159,10 +159,10 @@
    }
  }
 
- @media (max-width: 720px) {
+ @media (max-width: 767px) {
    .videoscompletos {
      flex-direction: column;
-     
+  
 
    }
  }
@@ -186,7 +186,17 @@
 }
 
 
+@media screen and (max-width: 767px) {
+  .imagen_estreno {
+    text-align: center;
+  margin-right: 50px;
+ }
 
+  .imagen_estreno {
+    max-width: 100%; 
+    height: auto; 
+  }
+}
 
 
 
