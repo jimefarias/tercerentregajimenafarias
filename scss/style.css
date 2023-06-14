@@ -61,7 +61,8 @@
    .gif_inicio {
     
      height: auto;
-     margin-left: 80px;
+     align-items: center;
+     margin-left: 60px;
    }
 
    .tamañocarrusel {
@@ -328,7 +329,7 @@
     padding: 10px;
     margin-bottom: 10px;
     text-align: center;
-    max-width: 100%;
+ 
     height: 70px;
   }
 }
