@@ -150,7 +150,7 @@
    height: 100px;
  }
 
- @media (orientation:720px) {
+ @media (max-width:400px) {
    .tablaconcierto {
      grid-template-columns: 1fr;
      grid-template-rows: 1fr 1fr 1fr;
